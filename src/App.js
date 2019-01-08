@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
-
-import Layout from './components/Layout/Layout';
+import Toolbar from './components/Toolbar/Toolbar';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Layout></Layout>        
+      <div>  
+        <Toolbar />
+        <main style={{marginTop: "56px"}}>
+          <p>This is main content</p>
+        </main>
+        
       </div>
     );
   }
