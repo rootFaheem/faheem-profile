@@ -6,7 +6,7 @@ import Layout from './components/Layout/Layout';
 class App extends Component {
   render() {
     return (
-      <div className={classes.App}>
+      <div>
         <Layout></Layout>        
       </div>
     );
