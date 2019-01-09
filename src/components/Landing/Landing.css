@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.Landing p {
+    margin-top: -14px;
+}
+
 .Landing Button {
     background-color: grey;
     border: none;
@@ -17,11 +21,12 @@
     display: inline-block;
     font-size: 18px;
     margin: 4px 2px;
+    margin-top: 40px;
     cursor: pointer;
     display: inline-block;
 }
 .Landing Button:hover {
     font-weight: bold;
     font-size: 20px;
-    
+
 } 

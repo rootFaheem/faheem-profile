@@ -6,7 +6,7 @@ import Logo from './Logo/Logo';
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <nav className={classes.Nav}>
-            <Logo link={"/"} logoname={"Logo"}/>
+            <Logo/>
             
             <div className={classes.Spacer}></div> 
             
