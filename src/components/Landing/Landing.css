@@ -1,0 +1,27 @@
+ .Landing {
+    color:#293347;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing Button {
+    background-color: grey;
+    border: none;
+    color: #293347;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+}
+.Landing Button:hover {
+    font-weight: bold;
+    font-size: 20px;
+    
+} 

@@ -3,8 +3,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: black;
-    height: 56px;
+    background: #1B242F;
+    height: 48px;
+    border: 2px;
+    font: inherit;
 }
 
 .Nav {
@@ -14,33 +16,6 @@
     padding: 0 1rem;
 }
 
-.Logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
 .Spacer {
     flex: 0.9;
-}
-
-.NavItems a {
-    color: white;
-    text-decoration: none;
-}
-
-.NavItems ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.NavItems li {
-    padding: 0 0.5rem;
-    font-size: 1rem;
-}
-.NavItems a:hover,
-.NavItems a:active {
-    color: green;
 }
