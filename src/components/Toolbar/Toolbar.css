@@ -4,6 +4,10 @@
     left: 0;
     width: 100%;
     background: #1B242F;
+    /* background: linear-gradient(
+      53deg,
+      #ffcfcf,
+      #ccfcfc ); */
     height: 48px;
     border: 2px;
     font: inherit;

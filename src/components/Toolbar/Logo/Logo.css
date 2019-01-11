@@ -1,11 +1,14 @@
 .Logo {
-    background-color: black;
-    padding: px;
+    background-color: inherit;
+    padding: 0;
     height: 100%;
     box-sizing: border-box;
     border-radius: 100px;
 }
 .Logo img {
     height: 100%;
-    margin-left: 10px;
+    margin-left: 100px;
+}
+.Logo img:hover {
+    transform: scale(1.1);
 }
